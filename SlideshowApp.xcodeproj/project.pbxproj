@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5083CA3A20DB9DF3005286A0 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083CA3920DB9DF3005286A0 /* ZoomViewController.swift */; };
 		50F49D1820DB3CAE00CE0166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F49D1720DB3CAE00CE0166 /* AppDelegate.swift */; };
 		50F49D1A20DB3CAE00CE0166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F49D1920DB3CAE00CE0166 /* ViewController.swift */; };
 		50F49D1D20DB3CAE00CE0166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D1B20DB3CAE00CE0166 /* Main.storyboard */; };
 		50F49D1F20DB3CB000CE0166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D1E20DB3CB000CE0166 /* Assets.xcassets */; };
 		50F49D2220DB3CB000CE0166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D2020DB3CB000CE0166 /* LaunchScreen.storyboard */; };
+		50F49D3420DB409C00CE0166 /* work11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D2920DB409800CE0166 /* work11.jpg */; };
+		50F49D3520DB409C00CE0166 /* work2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D2A20DB409900CE0166 /* work2.jpg */; };
+		50F49D3620DB409C00CE0166 /* work8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D2B20DB409900CE0166 /* work8.jpg */; };
+		50F49D3720DB409C00CE0166 /* work3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D2C20DB409900CE0166 /* work3.jpg */; };
+		50F49D3820DB409C00CE0166 /* work9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D2D20DB409900CE0166 /* work9.jpg */; };
+		50F49D3920DB409C00CE0166 /* work5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D2E20DB409A00CE0166 /* work5.jpg */; };
+		50F49D3A20DB409C00CE0166 /* work6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D2F20DB409A00CE0166 /* work6.jpg */; };
+		50F49D3B20DB409C00CE0166 /* work4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D3020DB409B00CE0166 /* work4.jpg */; };
+		50F49D3C20DB409C00CE0166 /* work10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D3120DB409B00CE0166 /* work10.jpg */; };
+		50F49D3D20DB409C00CE0166 /* work1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D3220DB409B00CE0166 /* work1.jpg */; };
+		50F49D3E20DB409C00CE0166 /* work7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50F49D3320DB409C00CE0166 /* work7.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5083CA3920DB9DF3005286A0 /* ZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
 		50F49D1420DB3CAE00CE0166 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50F49D1720DB3CAE00CE0166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50F49D1920DB3CAE00CE0166 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		50F49D1E20DB3CB000CE0166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50F49D2120DB3CB000CE0166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50F49D2320DB3CB000CE0166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F49D2920DB409800CE0166 /* work11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work11.jpg; sourceTree = "<group>"; };
+		50F49D2A20DB409900CE0166 /* work2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work2.jpg; sourceTree = "<group>"; };
+		50F49D2B20DB409900CE0166 /* work8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work8.jpg; sourceTree = "<group>"; };
+		50F49D2C20DB409900CE0166 /* work3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work3.jpg; sourceTree = "<group>"; };
+		50F49D2D20DB409900CE0166 /* work9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work9.jpg; sourceTree = "<group>"; };
+		50F49D2E20DB409A00CE0166 /* work5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work5.jpg; sourceTree = "<group>"; };
+		50F49D2F20DB409A00CE0166 /* work6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work6.jpg; sourceTree = "<group>"; };
+		50F49D3020DB409B00CE0166 /* work4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work4.jpg; sourceTree = "<group>"; };
+		50F49D3120DB409B00CE0166 /* work10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work10.jpg; sourceTree = "<group>"; };
+		50F49D3220DB409B00CE0166 /* work1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work1.jpg; sourceTree = "<group>"; };
+		50F49D3320DB409C00CE0166 /* work7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = work7.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,21 @@
 				50F49D1720DB3CAE00CE0166 /* AppDelegate.swift */,
 				50F49D1920DB3CAE00CE0166 /* ViewController.swift */,
 				50F49D1B20DB3CAE00CE0166 /* Main.storyboard */,
+				50F49D3220DB409B00CE0166 /* work1.jpg */,
+				50F49D2A20DB409900CE0166 /* work2.jpg */,
+				50F49D2C20DB409900CE0166 /* work3.jpg */,
+				50F49D3020DB409B00CE0166 /* work4.jpg */,
+				50F49D2E20DB409A00CE0166 /* work5.jpg */,
+				50F49D2F20DB409A00CE0166 /* work6.jpg */,
+				50F49D3320DB409C00CE0166 /* work7.jpg */,
+				50F49D2B20DB409900CE0166 /* work8.jpg */,
+				50F49D2D20DB409900CE0166 /* work9.jpg */,
+				50F49D3120DB409B00CE0166 /* work10.jpg */,
+				50F49D2920DB409800CE0166 /* work11.jpg */,
 				50F49D1E20DB3CB000CE0166 /* Assets.xcassets */,
 				50F49D2020DB3CB000CE0166 /* LaunchScreen.storyboard */,
 				50F49D2320DB3CB000CE0166 /* Info.plist */,
+				5083CA3920DB9DF3005286A0 /* ZoomViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -122,9 +158,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50F49D3720DB409C00CE0166 /* work3.jpg in Resources */,
 				50F49D2220DB3CB000CE0166 /* LaunchScreen.storyboard in Resources */,
+				50F49D3E20DB409C00CE0166 /* work7.jpg in Resources */,
+				50F49D3620DB409C00CE0166 /* work8.jpg in Resources */,
+				50F49D3A20DB409C00CE0166 /* work6.jpg in Resources */,
+				50F49D3520DB409C00CE0166 /* work2.jpg in Resources */,
+				50F49D3920DB409C00CE0166 /* work5.jpg in Resources */,
+				50F49D3820DB409C00CE0166 /* work9.jpg in Resources */,
 				50F49D1F20DB3CB000CE0166 /* Assets.xcassets in Resources */,
+				50F49D3420DB409C00CE0166 /* work11.jpg in Resources */,
+				50F49D3C20DB409C00CE0166 /* work10.jpg in Resources */,
+				50F49D3B20DB409C00CE0166 /* work4.jpg in Resources */,
 				50F49D1D20DB3CAE00CE0166 /* Main.storyboard in Resources */,
+				50F49D3D20DB409C00CE0166 /* work1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F49D1A20DB3CAE00CE0166 /* ViewController.swift in Sources */,
+				5083CA3A20DB9DF3005286A0 /* ZoomViewController.swift in Sources */,
 				50F49D1820DB3CAE00CE0166 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.yuusei.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.yuusei.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
