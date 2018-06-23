@@ -29,6 +29,11 @@ class ZoomViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let viewController:ViewController = segue.destination as! ViewController
+        viewController.imageIndex = imageIndex 
+    }
+    
 
     /*
     // MARK: - Navigation
