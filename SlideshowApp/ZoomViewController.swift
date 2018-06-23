@@ -31,7 +31,7 @@ class ZoomViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let viewController:ViewController = segue.destination as! ViewController
-        viewController.imageIndex = imageIndex 
+        viewController.imageIndex = imageIndex
     }
     
 

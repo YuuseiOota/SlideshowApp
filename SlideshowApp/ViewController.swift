@@ -36,6 +36,9 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let zoomViewController:ZoomViewController = segue.destination as! ZoomViewController
         zoomViewController.imageIndex = imageIndex - 1
+        if self.timer != nil {
+            self.timer.invalidate()
+        }
     }
     
     @IBAction func tapBackButton(_ sender: Any) {
@@ -83,6 +86,9 @@ class ViewController: UIViewController {
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         displayImage()
+        if self.timer != nil {
+            self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(displayImage), userInfo: nil, repeats: true)
+        }
     }
     
 
