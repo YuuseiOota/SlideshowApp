@@ -10,7 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var showButton: UIButton!
+    @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
+    
     
     @IBAction func tapImage(_ sender: Any) {
         performSegue(withIdentifier: "zoom", sender: nil)
@@ -36,27 +39,27 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tapBackButton(_ sender: Any) {
-        if self.timer == nil {
-            imageIndex -= 2
-            displayImage()
-        }
+        imageIndex -= 2
+        displayImage()
     }
     
     @IBAction func tapShowButton(_ sender: Any) {
         if self.timer == nil {
             self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(displayImage), userInfo: nil, repeats: true)
-            button.setTitle("停止", for: .normal)
+            backButton.isEnabled = false
+            nextButton.isEnabled = false
+            showButton.setTitle("停止", for: .normal)
         } else {
             self.timer.invalidate()
             self.timer = nil
-            button.setTitle("再生 ", for: .normal)
+            backButton.isEnabled = true
+            nextButton.isEnabled = true
+            showButton.setTitle("再生 ", for: .normal)
         }
     }
     
     @IBAction func tapNextButton(_ sender: Any) {
-        if self.timer == nil {
-            displayImage()
-        }
+        displayImage()
     }
     
     @objc func displayImage() {
